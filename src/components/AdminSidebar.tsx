@@ -3,9 +3,7 @@ import { AiFillFileText } from "react-icons/ai";
 import {
   FaChartBar,
   FaChartLine,
-  FaChartPie,
-  FaGamepad,
-  FaStopwatch,
+  FaChartPie
 } from "react-icons/fa";
 import { IoIosPeople } from "react-icons/io";
 import {
@@ -91,21 +89,9 @@ const DivThree = ({ location }: { location: Location }) => (
     <h5>Apps</h5>
     <ul>
       <Li
-        url="/admin/app/stopwatch"
-        text="Stopwatch"
-        Icon={FaStopwatch}
-        location={location}
-      />
-      <Li
         url="/admin/app/coupon"
         text="Coupon"
         Icon={RiCoupon3Fill}
-        location={location}
-      />
-      <Li
-        url="/admin/app/toss"
-        text="Toss"
-        Icon={FaGamepad}
         location={location}
       />
     </ul>
